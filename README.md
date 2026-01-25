@@ -1,11 +1,7 @@
-# product-canyoufeelit-db
+# ⚠️ DEPRECATED
 
-Database + backend parts for **canyoufeelit**.
+**This repo has been merged into [me-mixinglibrary-app](https://github.com/rr-ventures/me-mixinglibrary-app)**
 
-## What this repo does
-- Data storage
-- Backend logic
-- Supporting services
+All database, tracklist, and mix management functionality now lives in `me-mixinglibrary-app`.
 
-## How to run
-Open in Dev Container → follow `docs/setup.md`
+Please use that repo instead.
