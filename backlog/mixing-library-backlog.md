@@ -1,4 +1,4 @@
-# BACKLOG - Mixing Library Features
+# BACKLOG - me-mixinglibrary-app
 
 ## Based on Artifact: product-musiclibrarycleaner
 
