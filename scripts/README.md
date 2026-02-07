@@ -64,11 +64,59 @@ If not installed, download from [python.org](https://www.python.org/downloads/).
 
 ---
 
+### 3. `rekordbox_parser.py` (Coming Soon)
+**Purpose**: Parse Rekordbox XML exports and convert to JSON format.
+
+**Input**: Rekordbox XML export file
+
+**Output**: JSON file with track metadata (title, artist, genre, BPM, key, rating, etc.)
+
+**Usage**:
+```bash
+python scripts/rekordbox_parser.py path/to/rekordbox.xml
+```
+
+**When to use**: After exporting your Rekordbox library, to convert it to a usable format.
+
+---
+
+### 4. `copyright_checker.py` (Coming Soon)
+**Purpose**: Flag tracks with high copyright risk before uploading mixes.
+
+**Input**: Track list or Rekordbox library data
+
+**Output**: List of risky tracks with risk levels
+
+**When to use**: Before finalizing a mix tracklist, to avoid copyright issues on YouTube.
+
+---
+
+### 5. `tracklist_generator.py` (Coming Soon)
+**Purpose**: Auto-generate tracklists from Rekordbox playlists or mix files.
+
+**Input**: Rekordbox playlist or mix file
+
+**Output**: Formatted tracklist ready for YouTube description
+
+**When to use**: After recording a mix, to quickly generate the tracklist.
+
+---
+
+### 6. `inbox_processor.py` (Coming Soon)
+**Purpose**: Organize new music downloads and suggest playlists.
+
+**Input**: Folder of new music files
+
+**Output**: Organized files with metadata suggestions
+
+**When to use**: After downloading new tracks, to organize and tag them.
+
+---
+
 ## Future Script Ideas (Backlog)
 
 - **Thumbnail generator**: Auto-generate text-based thumbnails with consistent styling
 - **Distribution poster**: Auto-post to Reddit/Discord with formatted text
 - **Analytics scraper**: Pull YouTube stats weekly and save to spreadsheet
-- **Copyright checker**: Flag tracks that have been claimed in previous mixes
 
 Add these only if the manual process becomes a genuine bottleneck.

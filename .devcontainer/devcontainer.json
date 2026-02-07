@@ -1,5 +1,5 @@
 {
-  "name": "rr-ventures dev",
+  "name": "CanYouFeelIt DB",
   "build": {
     "dockerfile": "Dockerfile"
   },
@@ -15,5 +15,5 @@
     }
   },
   "forwardPorts": [],
-  "postCreateCommand": "python -V && node -v && npm -v"
+  "postCreateCommand": "python -V && node -v && npm -v && pip install -r requirements.txt"
 }
